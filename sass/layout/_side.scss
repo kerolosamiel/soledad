@@ -1,0 +1,308 @@
+@use "../helper/var" as *;
+
+.side {
+  .side-container {
+    .social-media {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .social-media-links {
+        width: 90%;
+        margin: 0 auto;
+        .link {
+          width: calc((100% - 1em) / 2);
+          flex-wrap: wrap;
+
+          .icon {
+            width: 2.2em;
+            height: 2.2em;
+            font-size: 1.2em;
+
+            a {
+              color: $primary;
+            }
+          }
+
+          a {
+            color: $text;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+
+            @extend %links-hover;
+          }
+        }
+
+        .facebook {
+          .icon {
+            background-color: #0d47a1;
+          }
+        }
+
+        .twitter {
+          .icon {
+            background-color: #40c4ff;
+          }
+        }
+        .instagram {
+          .icon {
+            background: radial-gradient(
+                circle farthest-corner at 35% 90%,
+                #ffa100,
+                transparent 50%
+              ),
+              radial-gradient(
+                circle farthest-corner at 0 140%,
+                #efa11c,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 0 -25%,
+                #5258cf,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 20% -50%,
+                #5258cf,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 100% 0,
+                #893dc2,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 60% -20%,
+                #8f44c7,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 100% 100%,
+                #d43178,
+                transparent
+              ),
+              linear-gradient(
+                #6559ca,
+                #bc318f 30%,
+                #e33f5f 50%,
+                #f77638 70%,
+                #fec66d 100%
+              ) !important;
+          }
+        }
+
+        .pinterest {
+          .icon {
+            background-color: #bd081c;
+          }
+        }
+
+        .youtube {
+          .icon {
+            background-color: #ff0000;
+          }
+        }
+        .emial {
+          .icon {
+            background-color: #0084ff;
+          }
+        }
+      }
+    }
+
+    .popular-posts {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .posts {
+        width: 90%;
+        margin: 0 auto;
+
+        .post {
+          .image {
+            width: 40%;
+
+            .count {
+              width: 2em;
+              height: 2em;
+              background: #555555;
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              border: 1px solid #dedede;
+              left: 5%;
+              top: -1em;
+              color: $primary;
+
+              p {
+                font-weight: 900;
+              }
+            }
+          }
+
+          .info {
+            .info-title {
+              p {
+                font-size: 0.9em;
+                font-weight: 700;
+              }
+            }
+
+            .date {
+              color: #888;
+              position: relative;
+
+              P {
+                font-size: 0.8em;
+              }
+              p:nth-child(1) {
+                &::after {
+                  content: "";
+                  width: 4px;
+                  height: 4px;
+                  border: 2px solid;
+                  border-radius: 2px;
+                  display: inline-block;
+                  color: #888;
+                  right: -4px;
+                }
+              }
+            }
+          }
+
+          &:not(:last-child) {
+            &::after {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              background-color: #ededed;
+              bottom: -35%;
+              left: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .side-categories {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .categories {
+        @extend %categories;
+        a {
+          color: $text;
+        }
+      }
+    }
+
+    .side-subscribe {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .email-submit {
+        width: 90%;
+        margin: 0 auto;
+
+        form {
+          input {
+            border: 1px solid #dedede;
+            padding: 0.6em;
+          }
+
+          button {
+            padding: 0.3em;
+            background: #555;
+            color: $primary;
+            font-size: 1.2em;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+          }
+        }
+      }
+    }
+
+    .side-culture-blog {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .side-culture-show {
+        width: 90%;
+        margin: 0 auto;
+        .side-culture-blogs {
+          .side-culture-info {
+            left: 5%;
+            width: 90%;
+            bottom: 0;
+            height: 40%;
+            background: $primary;
+            padding: 0.4em;
+
+            a {
+              text-decoration: none;
+              color: $text;
+              transition: 0.3s ease;
+              h2 {
+                font-size: $h2;
+              }
+
+              @extend %links-hover;
+            }
+
+            p {
+              font-size: 0.8em;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+
+    .side-update-blog {
+      border: 1px solid #dedede;
+
+      .title {
+        @extend %side-titles;
+      }
+
+      .side-update-show {
+        width: 90%;
+        margin: 0 auto;
+        .side-update-blogs {
+          color: #313131;
+          a {
+            text-decoration: none;
+            color: #313131;
+            transition: 0.3s ease;
+            h2 {
+              font-size: $h2;
+            }
+
+            @extend %links-hover;
+          }
+
+          p {
+            font-size: 0.8em;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+}

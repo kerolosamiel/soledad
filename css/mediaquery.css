@@ -1,0 +1,249 @@
+@media (max-width: 1169.98px) {
+  header .header-container .top {
+    justify-content: center !important;
+    gap: 0.5em;
+    flex-direction: column;
+  }
+
+  header .header-container .top .date {
+    flex-direction: column;
+    gap: 0.5em !important;
+  }
+
+  .categories .categories-container {
+    flex-wrap: wrap;
+  }
+
+  .categories .categories-container .category {
+    width: calc((100% - 2em) / 3);
+  }
+}
+
+@media (max-width: 960.98px) {
+  .hero .hero-container {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  h2 {
+    font-size: 1em !important;
+  }
+
+  footer .top-footer {
+    flex-direction: column;
+  }
+
+  footer .top-footer .footer-column {
+    width: 100%;
+  }
+
+  footer .bottom-footer .bottom-container .social-media {
+    flex-wrap: wrap;
+  }
+
+  footer .bottom-footer .bottom-container .social-media .link a {
+    display: none;
+  }
+}
+
+@media (min-width: 766px) and (max-width: 960.98px) {
+  .side .side-container .social-media .title .arrow,
+  .side .side-container .popular-posts .title .arrow,
+  .side .side-container .side-categories .title .arrow,
+  .side .side-container .side-subscribe .title .arrow,
+  .side .side-container .side-culture-blog .title .arrow,
+  .side .side-container .side-update-blog .title .arrow {
+    width: 15%;
+  }
+
+  .side .side-container .popular-posts .posts .post .image {
+    width: 50%;
+  }
+
+  .side .side-container .popular-posts .posts .post .info {
+    width: 50%;
+  }
+
+  .blogs-container
+    .content
+    .fashion-blogs
+    .show-blogs-container
+    .show-blogs
+    .main-blogs
+    .blog {
+    width: calc((100% - 2em) / 2);
+  }
+
+  .elementor .elementor-container {
+    width: 100%;
+  }
+
+  .elementor .elementor-container .elementor-blogs {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 250px 250px;
+  }
+
+  .elementor
+    .elementor-container
+    .elementor-blogs
+    .elementor-blog:nth-child(1) {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
+
+  .side
+    .side-container
+    .side-culture-blog
+    .side-culture-show
+    .side-culture-blogs
+    .side-culture-info {
+    height: 60%;
+  }
+
+  .blogs-container
+    .content
+    .latest-video
+    .show-blogs
+    .main-blogs
+    .blog:nth-child(1) {
+    width: unset;
+  }
+
+  .blogs-container .content .latest-video .show-blogs .main-blogs .blog {
+    width: calc((100% - 0.5em) / 2) !important;
+  }
+
+  header .header-container .bottom {
+    align-items: center;
+  }
+
+  header .header-container .bottom .logo {
+    margin: 0 auto;
+  }
+
+  header .header-container .bottom .links {
+    display: none !important;
+  }
+
+  header .header-container .bottom .burger-icon {
+    display: block;
+  }
+
+  header .header-container .bottom .nav-bar {
+    display: block;
+  }
+}
+
+@media (max-width: 765.98px) {
+  .categories .categories-container .category {
+    width: calc((100% - 1em) / 2);
+  }
+
+  .blogs-container {
+    flex-direction: column;
+  }
+
+  .blogs-container .content {
+    width: 100%;
+  }
+
+  .blogs-container .content .blog-section .main-blogs {
+    flex-wrap: wrap;
+  }
+
+  .blogs-container .content .blog-section .show-blogs .main-blogs .blog {
+    width: 100%;
+  }
+
+  .blogs-container
+    .content
+    .blog-section
+    .show-blogs
+    .suggestions
+    .suggest-blogs {
+    width: 100%;
+  }
+
+  .blogs-container
+    .content
+    .fashion-blogs
+    .show-blogs-container
+    .show-blogs
+    .main-blogs
+    .blog {
+    width: 100%;
+  }
+
+  .blogs-container .content .blog-section .show-blogs .main-blogs .blog {
+    flex-direction: column;
+  }
+
+  .blogs-container
+    .content
+    .healthy-blogs
+    .show-blogs
+    .main-blogs
+    .blog
+    .image {
+    width: 100%;
+  }
+
+  .blogs-container
+    .content
+    .healthy-blogs
+    .show-blogs
+    .main-blogs
+    .blog
+    .info-container {
+    width: 100%;
+  }
+
+  .blogs-container .side {
+    width: 100%;
+  }
+
+  .elementor .elementor-container .elementor-blogs {
+    grid-template-columns: 1fr;
+    grid-template-rows: 250px 250px 250px 250px 250px;
+  }
+
+  .elementor
+    .elementor-container
+    .elementor-blogs
+    .elementor-blog:nth-child(1) {
+    grid-row-start: unset;
+    grid-row-end: unset;
+  }
+
+  .blogs-container
+    .content
+    .latest-style-blog
+    .show-blogs
+    .main-blogs
+    .blog
+    .image {
+    width: 100%;
+  }
+
+  .blogs-container
+    .content
+    .latest-style-blog
+    .show-blogs
+    .main-blogs
+    .blog
+    .latest-info {
+    width: 100%;
+  }
+
+  .blogs-container
+    .content
+    .posts
+    .show-blogs-container
+    .show-blogs
+    .main-blogs
+    .blog {
+    width: 100%;
+  }
+}

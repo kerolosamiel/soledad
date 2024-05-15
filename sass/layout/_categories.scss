@@ -1,0 +1,39 @@
+@use "../helper/var" as *;
+
+.categories {
+  .categories-container {
+    width: 90%;
+    margin: 0 auto;
+
+    .category {
+      width: calc((100% - 5rem) / 6);
+      overflow: hidden;
+
+      img {
+        transition: 0.3s ease;
+      }
+
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+
+      .title {
+        left: 50%;
+        transform: translate(-50%, 0);
+        bottom: 0;
+        filter: drop-shadow(2px 4px 5px black);
+
+        a {
+          font-weight: 700;
+          color: $primary;
+          text-decoration: none;
+          transition: 0.3s ease;
+
+          @extend %links-hover;
+        }
+      }
+    }
+  }
+}

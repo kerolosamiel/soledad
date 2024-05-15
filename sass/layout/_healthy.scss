@@ -1,0 +1,34 @@
+@use "../helper/var" as *;
+
+.blogs-container {
+  .content {
+    .healthy-blogs {
+      .show-blogs {
+        .main-blogs {
+          .blog {
+            width: 100%;
+
+            .image {
+              width: calc(40% - 0.75em);
+            }
+
+            .info-container {
+              width: calc(60% - 0.75em);
+              line-height: 1.8;
+
+              .made {
+                &::after {
+                  display: none;
+                }
+              }
+            }
+
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

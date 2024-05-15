@@ -1,0 +1,197 @@
+@use "../helper/var" as *;
+
+footer {
+  background-color: #191919;
+  .top-footer {
+    width: 90%;
+    margin: 0 auto;
+
+    .footer-column {
+      width: calc((100% - 3rem) / 3);
+      color: $primary;
+
+      .title {
+        h2 {
+          font-size: $h2;
+        }
+
+        &::after {
+          content: "";
+          width: 100%;
+          height: 0.18em;
+          background-color: #313131;
+          bottom: -10%;
+          position: absolute;
+        }
+      }
+
+      .pick {
+        .image {
+          width: calc(35% - 0.25em);
+        }
+
+        .info {
+          width: calc(65% - 0.25em);
+
+          a {
+            color: #fff;
+            text-decoration: none;
+            transition: 0.6s ease;
+            h2 {
+              font-size: 1em;
+            }
+
+            @extend %links-hover;
+          }
+        }
+      }
+
+      .pick:not(:last-child) {
+        &::after {
+          content: "";
+          width: 100%;
+          height: 0.1em;
+          background-color: #313131;
+          bottom: -20%;
+          position: absolute;
+        }
+      }
+
+      .categories {
+        @extend %categories;
+
+        ul {
+          li {
+            a {
+              color: $primary;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .bottom-footer {
+    background-color: #111111;
+    .bottom-container {
+      width: 90%;
+      margin: 0 auto;
+
+      .social-media {
+        .link {
+          .icon {
+            width: 2.2em;
+            height: 2.2em;
+            color: $primary;
+            font-size: 1.2em;
+          }
+
+          a {
+            color: #999;
+            text-decoration: none;
+            font-weight: 600;
+            transition: 0.3s ease;
+            @extend %links-hover;
+          }
+        }
+
+        .facebook {
+          .icon {
+            background-color: #0d47a1;
+          }
+        }
+
+        .twitter {
+          .icon {
+            background-color: #40c4ff;
+          }
+        }
+        .instagram {
+          .icon {
+            background: radial-gradient(
+                circle farthest-corner at 35% 90%,
+                #ffa100,
+                transparent 50%
+              ),
+              radial-gradient(
+                circle farthest-corner at 0 140%,
+                #efa11c,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 0 -25%,
+                #5258cf,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 20% -50%,
+                #5258cf,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 100% 0,
+                #893dc2,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 60% -20%,
+                #8f44c7,
+                transparent 50%
+              ),
+              radial-gradient(
+                ellipse farthest-corner at 100% 100%,
+                #d43178,
+                transparent
+              ),
+              linear-gradient(
+                #6559ca,
+                #bc318f 30%,
+                #e33f5f 50%,
+                #f77638 70%,
+                #fec66d 100%
+              ) !important;
+          }
+        }
+
+        .pinterest {
+          .icon {
+            background-color: #bd081c;
+          }
+        }
+
+        .youtube {
+          .icon {
+            background-color: #ff0000;
+          }
+        }
+        .emial {
+          .icon {
+            background-color: #0084ff;
+          }
+        }
+
+        &::after {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 0.1em;
+          left: 0;
+          bottom: -40%;
+          background-color: #313131;
+        }
+      }
+
+      .made-by {
+        color: #999;
+
+        a {
+          text-decoration: none;
+          color: $primary;
+          transition: 0.3s ease;
+
+          @extend %links-hover;
+        }
+      }
+    }
+  }
+}

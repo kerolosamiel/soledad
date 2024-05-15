@@ -1,0 +1,195 @@
+@use "../helper/var" as *;
+
+header {
+  .header-container {
+    .top {
+      padding-left: 5% !important;
+      padding-right: 5% !important;
+      background-color: $third;
+      color: $primary;
+
+      .date {
+        p {
+          font-size: 0.9em;
+          margin: 0;
+        }
+        .links {
+          a {
+            font-size: 0.75em;
+            font-weight: 700;
+            color: $primary;
+            text-decoration: none;
+            transition: 0.6s ease;
+
+            @extend %links-hover;
+          }
+        }
+      }
+
+      .social-media {
+        a {
+          color: $primary;
+          text-decoration: none;
+          transition: 0.6s ease;
+
+          @extend %links-hover;
+        }
+      }
+    }
+
+    .bottom {
+      padding-left: 5% !important;
+      padding-right: 5% !important;
+      background-color: #fff;
+
+      .logo {
+        img {
+          object-fit: unset;
+        }
+      }
+
+      .dropdown {
+        button {
+          font-weight: 500;
+          background: transparent;
+          transition: 0.3s ease;
+          line-height: 80px;
+
+          @extend %links-hover;
+        }
+
+        .menu {
+          left: 0;
+          bottom: 100%;
+          transition: bottom 0.5s ease;
+          box-shadow: 3px 5px 10px #0000009c;
+          border-radius: 0.2em;
+          width: 12.5em;
+          padding: 0 1em;
+          visibility: hidden;
+          background-color: $primary;
+          z-index: 999;
+          ul {
+            list-style: none;
+            margin: 0;
+            padding: unset;
+          }
+
+          li {
+            line-height: 3.4;
+
+            a {
+              font-size: 0.8em;
+              font-weight: 700;
+              transition: 0.3s ease;
+
+              @extend %links-hover;
+            }
+          }
+
+          li:not(:last-child) {
+            border-bottom: 1px solid #000;
+          }
+        }
+
+        &:hover {
+          .menu {
+            bottom: unset;
+            visibility: inherit;
+          }
+        }
+      }
+
+      .dropdown-blogs {
+        .menu {
+          width: fit-content;
+          left: -100%;
+          padding-left: 0;
+          width: 1200px;
+
+          ul {
+            width: 13em;
+            padding: 1em 0 0 0 !important;
+
+            li {
+              text-align: end;
+              padding: 0 0.5em 0 0;
+              border-bottom: unset !important;
+              border-right: 1px solid #e1e1e1 !important;
+            }
+
+            li:last-child {
+              border-bottom: 1px solid #e1e1e1 !important;
+            }
+
+            li:first-child {
+              border-bottom: 1px solid #e1e1e1 !important;
+            }
+
+            .active {
+              border-top: 1px solid #e1e1e1 !important;
+              border-bottom: 1px solid #e1e1e1 !important;
+              border-right: unset !important;
+            }
+          }
+
+          .life-style-blogs {
+            @extend %blogs;
+          }
+
+          .fashion-blogs {
+            @extend %blogs;
+            .blog {
+              width: calc(100% / 4);
+            }
+          }
+        }
+      }
+
+      .dropdown-blogs:nth-child(3) {
+        .menu {
+          left: -300%;
+        }
+      }
+
+      .right {
+        #link {
+          font-weight: 500;
+          background: transparent;
+          transition: 0.3s ease;
+          line-height: 80px;
+          color: $text;
+          text-decoration: none;
+
+          @extend %links-hover;
+        }
+
+        .menu {
+          .food-blogs {
+            @extend %blogs;
+            .blog {
+              width: calc(100% / 4);
+            }
+          }
+
+          .travel-blogs {
+            @extend %blogs;
+            .blog {
+              width: calc(100% / 4);
+            }
+          }
+        }
+
+        .food {
+          left: unset;
+          right: -300%;
+        }
+
+        .travel {
+          left: unset;
+          right: -100%;
+        }
+      }
+    }
+  }
+}

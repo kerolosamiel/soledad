@@ -1,0 +1,15 @@
+@use "../helper/var" as *;
+
+.blogs-container {
+    gap: 1.5em;
+    width: 90%;
+    margin: 2em auto 0;
+
+    .content {
+        width: calc(65% - .75em);
+    }
+
+    .side {
+        width: calc(35% - .75em);
+    }
+}

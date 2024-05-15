@@ -1,0 +1,57 @@
+@use "../helper/var" as *;
+
+@use "../helper/var" as *;
+
+.blogs-container {
+  .content {
+    .posts {
+      .show-blogs-container {
+        .show-blogs {
+          .main-blogs {
+            .blog {
+              width: calc((100% - 2em) / 2);
+              border: 1px solid #dedede;
+              .title {
+                padding: 0 1em;
+              }
+
+              .made {
+                padding: 0 1em;
+                &::after {
+                  display: none;
+                }
+              }
+
+              .view {
+                padding: 0 1em;
+
+                a {
+                  padding: 10px 15px;
+                  line-height: 1;
+                  color: $primary;
+                  background-color: #555;
+                  font-weight: 600;
+                  position: relative;
+                  display: inline-flex;
+                  align-items: center;
+                  justify-content: center;
+                  vertical-align: middle;
+                  text-align: center;
+                  text-decoration: none;
+                  letter-spacing: 0.3px;
+                  cursor: pointer;
+
+                  @extend %links-hover;
+                }
+              }
+
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

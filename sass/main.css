@@ -1,0 +1,1032 @@
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs, header .header-container .bottom .right .menu .food-blogs, header .header-container .bottom .right .menu .travel-blogs {
+  display: none;
+  transition: 0.3s ease;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog, header .header-container .bottom .right .menu .food-blogs .blog, header .header-container .bottom .right .menu .travel-blogs .blog {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  text-align: center;
+  padding: 1.5em;
+  width: 16em;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .image, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .image, header .header-container .bottom .right .menu .food-blogs .blog .image, header .header-container .bottom .right .menu .travel-blogs .blog .image {
+  position: relative;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .image .heading, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .image .heading, header .header-container .bottom .right .menu .food-blogs .blog .image .heading, header .header-container .bottom .right .menu .travel-blogs .blog .image .heading {
+  position: absolute;
+  width: -moz-fit-content;
+  width: fit-content;
+  background: #304ffe;
+  color: #fff;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 0.5em;
+  top: 0;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .image .heading p, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .image .heading p, header .header-container .bottom .right .menu .food-blogs .blog .image .heading p, header .header-container .bottom .right .menu .travel-blogs .blog .image .heading p {
+  margin: 0;
+  font-size: 0.9em;
+  font-weight: 600;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .info a, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .info a, header .header-container .bottom .right .menu .food-blogs .blog .info a, header .header-container .bottom .right .menu .travel-blogs .blog .info a {
+  font-size: 0.9em;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .info a:hover, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .info a:hover, header .header-container .bottom .right .menu .food-blogs .blog .info a:hover, header .header-container .bottom .right .menu .travel-blogs .blog .info a:hover {
+  color: #304ffe;
+}
+header .header-container .bottom .dropdown-blogs .menu .life-style-blogs .blog .info p, header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog .info p, header .header-container .bottom .right .menu .food-blogs .blog .info p, header .header-container .bottom .right .menu .travel-blogs .blog .info p {
+  font-weight: 500;
+  color: rgba(149, 149, 149, 0.9333333333);
+}
+header .header-container .bottom .dropdown-blogs .menu .active.life-style-blogs, header .header-container .bottom .dropdown-blogs .menu .active.fashion-blogs, header .header-container .bottom .right .menu .active.food-blogs, header .header-container .bottom .right .menu .active.travel-blogs {
+  display: flex;
+}
+
+footer .top-footer .footer-column .pick .info a:hover, footer .bottom-footer .bottom-container .social-media .link a:hover, footer .bottom-footer .bottom-container .made-by a:hover, .blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .view a:hover, .elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info a:hover, .side .side-container .social-media .social-media-links .link a:hover, .side .side-container .side-culture-blog .side-culture-show .side-culture-blogs .side-culture-info a:hover, .side .side-container .side-update-blog .side-update-show .side-update-blogs a:hover, .blogs-container .content .blog-section .links .buttons button:hover, .blogs-container .content .blog-section .show-blogs .main-blogs .blog .title h2 a:hover, .blogs-container .content .blog-section .show-blogs .main-blogs .blog .made P a:hover, .blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .info p:nth-child(1) a:hover, .categories .categories-container .category .title a:hover, .hero .hero-container .blog .info .title h2 a:hover, header .header-container .top .date .links a:hover, header .header-container .top .social-media a:hover, header .header-container .bottom .dropdown button:hover, header .header-container .bottom .dropdown .menu li a:hover, header .header-container .bottom .right #link:hover, footer .top-footer .footer-column .categories ul li a:hover, .side .side-container .side-categories .categories ul li a:hover {
+  color: #304ffe;
+}
+
+.side .side-container .social-media .title, .side .side-container .popular-posts .title, .side .side-container .side-categories .title, .side .side-container .side-subscribe .title, .side .side-container .side-culture-blog .title, .side .side-container .side-update-blog .title {
+  width: 90%;
+  margin: 0 auto;
+  background-color: #555555;
+  color: #fff;
+}
+.side .side-container .social-media .title h2, .side .side-container .popular-posts .title h2, .side .side-container .side-categories .title h2, .side .side-container .side-subscribe .title h2, .side .side-container .side-culture-blog .title h2, .side .side-container .side-update-blog .title h2 {
+  font-size: 1.2em;
+}
+.side .side-container .social-media .title .arrow, .side .side-container .popular-posts .title .arrow, .side .side-container .side-categories .title .arrow, .side .side-container .side-subscribe .title .arrow, .side .side-container .side-culture-blog .title .arrow, .side .side-container .side-update-blog .title .arrow {
+  width: 10%;
+  background: #313131;
+}
+
+footer .top-footer .footer-column .categories ul, .side .side-container .side-categories .categories ul {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+footer .top-footer .footer-column .categories ul li a, .side .side-container .side-categories .categories ul li a {
+  text-decoration: none;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+footer .top-footer .footer-column .categories ul li a span svg, .side .side-container .side-categories .categories ul li a span svg {
+  width: 0.5em;
+}
+
+header .header-container .top {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  background-color: #111111;
+  color: #fff;
+}
+header .header-container .top .date p {
+  font-size: 0.9em;
+  margin: 0;
+}
+header .header-container .top .date .links a {
+  font-size: 0.75em;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+header .header-container .top .social-media a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+header .header-container .bottom {
+  padding-left: 5% !important;
+  padding-right: 5% !important;
+  background-color: #fff;
+}
+header .header-container .bottom .logo img {
+  -o-object-fit: unset;
+     object-fit: unset;
+}
+header .header-container .bottom .dropdown button {
+  font-weight: 500;
+  background: transparent;
+  transition: 0.3s ease;
+  line-height: 80px;
+}
+header .header-container .bottom .dropdown .menu {
+  left: 0;
+  bottom: 100%;
+  transition: bottom 0.5s ease;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.6117647059);
+  border-radius: 0.2em;
+  width: 12.5em;
+  padding: 0 1em;
+  visibility: hidden;
+  background-color: #fff;
+  z-index: 999;
+}
+header .header-container .bottom .dropdown .menu ul {
+  list-style: none;
+  margin: 0;
+  padding: unset;
+}
+header .header-container .bottom .dropdown .menu li {
+  line-height: 3.4;
+}
+header .header-container .bottom .dropdown .menu li a {
+  font-size: 0.8em;
+  font-weight: 700;
+  transition: 0.3s ease;
+}
+header .header-container .bottom .dropdown .menu li:not(:last-child) {
+  border-bottom: 1px solid #000;
+}
+header .header-container .bottom .dropdown:hover .menu {
+  bottom: unset;
+  visibility: inherit;
+}
+header .header-container .bottom .dropdown-blogs .menu {
+  width: -moz-fit-content;
+  width: fit-content;
+  left: -100%;
+  padding-left: 0;
+  width: 1200px;
+}
+header .header-container .bottom .dropdown-blogs .menu ul {
+  width: 13em;
+  padding: 1em 0 0 0 !important;
+}
+header .header-container .bottom .dropdown-blogs .menu ul li {
+  text-align: end;
+  padding: 0 0.5em 0 0;
+  border-bottom: unset !important;
+  border-right: 1px solid #e1e1e1 !important;
+}
+header .header-container .bottom .dropdown-blogs .menu ul li:last-child {
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+header .header-container .bottom .dropdown-blogs .menu ul li:first-child {
+  border-bottom: 1px solid #e1e1e1 !important;
+}
+header .header-container .bottom .dropdown-blogs .menu ul .active {
+  border-top: 1px solid #e1e1e1 !important;
+  border-bottom: 1px solid #e1e1e1 !important;
+  border-right: unset !important;
+}
+header .header-container .bottom .dropdown-blogs .menu .fashion-blogs .blog {
+  width: 25%;
+}
+header .header-container .bottom .dropdown-blogs:nth-child(3) .menu {
+  left: -300%;
+}
+header .header-container .bottom .right #link {
+  font-weight: 500;
+  background: transparent;
+  transition: 0.3s ease;
+  line-height: 80px;
+  color: #000;
+  text-decoration: none;
+}
+header .header-container .bottom .right .menu .food-blogs .blog {
+  width: 25%;
+}
+header .header-container .bottom .right .menu .travel-blogs .blog {
+  width: 25%;
+}
+header .header-container .bottom .right .food {
+  left: unset;
+  right: -300%;
+}
+header .header-container .bottom .right .travel {
+  left: unset;
+  right: -100%;
+}
+
+.hero {
+  position: relative;
+  z-index: 0;
+}
+.hero .hero-container {
+  width: 90%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.hero .hero-container .blog:nth-child(1) {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.hero .hero-container .blog {
+  overflow: hidden;
+}
+.hero .hero-container .blog img {
+  transition: 1.3s ease;
+}
+.hero .hero-container .blog:hover img {
+  transform: scale(1.1);
+}
+.hero .hero-container .blog .info {
+  left: 5%;
+  bottom: 0;
+  width: 90%;
+}
+.hero .hero-container .blog .info .ctg p {
+  font-size: 0.8em;
+  font-weight: 600;
+  padding: 0 0.1em;
+  background-color: #304ffe;
+  color: #fff;
+}
+.hero .hero-container .blog .info .title h2 {
+  font-size: 1.2em;
+}
+.hero .hero-container .blog .info .title h2 a {
+  background: #fff;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.hero .hero-container .blog .info .made {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.hero .hero-container .blog .info .made p {
+  font-weight: 600;
+  background-color: #fff;
+}
+.hero .hero-container .blog:not(:first-child) .info .title h2 {
+  font-size: 1.2em;
+}
+
+.adds {
+  padding: 1.5em 0;
+  background-color: #f5f5f5;
+}
+.adds .adds-container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.categories .categories-container {
+  width: 90%;
+  margin: 0 auto;
+}
+.categories .categories-container .category {
+  width: calc((100% - 5rem) / 6);
+  overflow: hidden;
+}
+.categories .categories-container .category img {
+  transition: 0.3s ease;
+}
+.categories .categories-container .category:hover img {
+  transform: scale(1.1);
+}
+.categories .categories-container .category .title {
+  left: 50%;
+  transform: translate(-50%, 0);
+  bottom: 0;
+  filter: drop-shadow(2px 4px 5px black);
+}
+.categories .categories-container .category .title a {
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.blogs-container {
+  gap: 1.5em;
+  width: 90%;
+  margin: 2em auto 0;
+}
+.blogs-container .content {
+  width: calc(65% - 0.75em);
+}
+.blogs-container .side {
+  width: calc(35% - 0.75em);
+}
+
+.blogs-container .content .blog-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+.blogs-container .content .blog-section .links {
+  display: flex;
+  justify-content: space-between;
+}
+.blogs-container .content .blog-section .links .title {
+  background: #304ffe;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0.6em;
+  padding-right: 1.2em;
+  position: relative;
+}
+.blogs-container .content .blog-section .links .title h2 {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 0;
+}
+.blogs-container .content .blog-section .links .title h2 a {
+  color: #fff;
+  text-decoration: none;
+}
+.blogs-container .content .blog-section .links .title::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  width: 0;
+  height: 0;
+  z-index: 1;
+  border-top: 21px solid transparent;
+  border-bottom: 21px solid transparent;
+  border-right: 16px solid #fff;
+  right: 0px;
+  transform: translate(0, -50%);
+}
+.blogs-container .content .blog-section .links .buttons {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  align-items: center;
+  color: #313131;
+  transition: 0.3s ease;
+}
+.blogs-container .content .blog-section .links .buttons button {
+  color: #313131;
+  background-color: transparent;
+}
+.blogs-container .content .blog-section .show-blogs {
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: 0.6s ease;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog {
+  width: calc((100% - 1.5em) / 2);
+  position: relative;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog::after {
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #888;
+  position: absolute;
+  bottom: -2.5%;
+  left: 0;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .title h2 {
+  font-size: 1.2em;
+  margin: 0;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .title h2 a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .made {
+  color: #888;
+  position: relative;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .made P {
+  font-size: 0.8em;
+  margin: 0;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .made P a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .made p:nth-child(1)::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border: 2px solid;
+  border-radius: 2px;
+  display: inline-block;
+  color: #888;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .made::after {
+  content: "";
+  position: absolute;
+  bottom: -50%;
+  left: 0;
+  width: 60px;
+  height: 1px;
+  background: #304ffe;
+  display: block;
+}
+.blogs-container .content .blog-section .show-blogs .main-blogs .blog .text p {
+  font-size: 0.9em;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs {
+  width: calc((100% - 1.5em) / 2);
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .image {
+  width: 33%;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .info {
+  width: 65%;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .info p:nth-child(1) {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .info p:nth-child(1) a {
+  text-decoration: none;
+  transition: 0.3s ease;
+  color: #000;
+}
+.blogs-container .content .blog-section .show-blogs .suggestions .suggest-blogs .info p {
+  margin: 0;
+  font-size: 0.8em;
+  color: #888;
+}
+.blogs-container .content .blog-section .active {
+  position: relative;
+  opacity: 1;
+}
+
+.blogs-container .content .fashion-blogs .show-blogs-container .show-blogs .main-blogs .blog {
+  width: calc((100% - 3em) / 3);
+}
+.blogs-container .content .fashion-blogs .show-blogs-container .show-blogs .main-blogs .made::after {
+  display: none;
+}
+.blogs-container .content .fashion-blogs .show-blogs-container .show-blogs .main-blogs .blog::after {
+  display: none;
+}
+
+.blogs-container .content .healthy-blogs .show-blogs .main-blogs .blog {
+  width: 100%;
+}
+.blogs-container .content .healthy-blogs .show-blogs .main-blogs .blog .image {
+  width: calc(40% - 0.75em);
+}
+.blogs-container .content .healthy-blogs .show-blogs .main-blogs .blog .info-container {
+  width: calc(60% - 0.75em);
+  line-height: 1.8;
+}
+.blogs-container .content .healthy-blogs .show-blogs .main-blogs .blog .info-container .made::after {
+  display: none;
+}
+.blogs-container .content .healthy-blogs .show-blogs .main-blogs .blog::after {
+  display: none;
+}
+
+.side .side-container .social-media {
+  border: 1px solid #dedede;
+}
+.side .side-container .social-media .social-media-links {
+  width: 90%;
+  margin: 0 auto;
+}
+.side .side-container .social-media .social-media-links .link {
+  width: calc((100% - 1em) / 2);
+  flex-wrap: wrap;
+}
+.side .side-container .social-media .social-media-links .link .icon {
+  width: 2.2em;
+  height: 2.2em;
+  font-size: 1.2em;
+}
+.side .side-container .social-media .social-media-links .link .icon a {
+  color: #fff;
+}
+.side .side-container .social-media .social-media-links .link a {
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.side .side-container .social-media .social-media-links .facebook .icon {
+  background-color: #0d47a1;
+}
+.side .side-container .social-media .social-media-links .twitter .icon {
+  background-color: #40c4ff;
+}
+.side .side-container .social-media .social-media-links .instagram .icon {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #ffa100, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #efa11c, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #8f44c7, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d43178, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%) !important;
+}
+.side .side-container .social-media .social-media-links .pinterest .icon {
+  background-color: #bd081c;
+}
+.side .side-container .social-media .social-media-links .youtube .icon {
+  background-color: #ff0000;
+}
+.side .side-container .social-media .social-media-links .emial .icon {
+  background-color: #0084ff;
+}
+.side .side-container .popular-posts {
+  border: 1px solid #dedede;
+}
+.side .side-container .popular-posts .posts {
+  width: 90%;
+  margin: 0 auto;
+}
+.side .side-container .popular-posts .posts .post .image {
+  width: 40%;
+}
+.side .side-container .popular-posts .posts .post .image .count {
+  width: 2em;
+  height: 2em;
+  background: #555555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #dedede;
+  left: 5%;
+  top: -1em;
+  color: #fff;
+}
+.side .side-container .popular-posts .posts .post .image .count p {
+  font-weight: 900;
+}
+.side .side-container .popular-posts .posts .post .info .info-title p {
+  font-size: 0.9em;
+  font-weight: 700;
+}
+.side .side-container .popular-posts .posts .post .info .date {
+  color: #888;
+  position: relative;
+}
+.side .side-container .popular-posts .posts .post .info .date P {
+  font-size: 0.8em;
+}
+.side .side-container .popular-posts .posts .post .info .date p:nth-child(1)::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border: 2px solid;
+  border-radius: 2px;
+  display: inline-block;
+  color: #888;
+  right: -4px;
+}
+.side .side-container .popular-posts .posts .post:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #ededed;
+  bottom: -35%;
+  left: 0;
+}
+.side .side-container .side-categories {
+  border: 1px solid #dedede;
+}
+.side .side-container .side-categories .categories a {
+  color: #000;
+}
+.side .side-container .side-subscribe {
+  border: 1px solid #dedede;
+}
+.side .side-container .side-subscribe .email-submit {
+  width: 90%;
+  margin: 0 auto;
+}
+.side .side-container .side-subscribe .email-submit form input {
+  border: 1px solid #dedede;
+  padding: 0.6em;
+}
+.side .side-container .side-subscribe .email-submit form button {
+  padding: 0.3em;
+  background: #555;
+  color: #fff;
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+}
+.side .side-container .side-culture-blog {
+  border: 1px solid #dedede;
+}
+.side .side-container .side-culture-blog .side-culture-show {
+  width: 90%;
+  margin: 0 auto;
+}
+.side .side-container .side-culture-blog .side-culture-show .side-culture-blogs .side-culture-info {
+  left: 5%;
+  width: 90%;
+  bottom: 0;
+  height: 40%;
+  background: #fff;
+  padding: 0.4em;
+}
+.side .side-container .side-culture-blog .side-culture-show .side-culture-blogs .side-culture-info a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.3s ease;
+}
+.side .side-container .side-culture-blog .side-culture-show .side-culture-blogs .side-culture-info a h2 {
+  font-size: 1.2em;
+}
+.side .side-container .side-culture-blog .side-culture-show .side-culture-blogs .side-culture-info p {
+  font-size: 0.8em;
+  margin: 0;
+}
+.side .side-container .side-update-blog {
+  border: 1px solid #dedede;
+}
+.side .side-container .side-update-blog .side-update-show {
+  width: 90%;
+  margin: 0 auto;
+}
+.side .side-container .side-update-blog .side-update-show .side-update-blogs {
+  color: #313131;
+}
+.side .side-container .side-update-blog .side-update-show .side-update-blogs a {
+  text-decoration: none;
+  color: #313131;
+  transition: 0.3s ease;
+}
+.side .side-container .side-update-blog .side-update-show .side-update-blogs a h2 {
+  font-size: 1.2em;
+}
+.side .side-container .side-update-blog .side-update-show .side-update-blogs p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.elementor {
+  background-color: #222;
+  padding: 4em 0;
+}
+.elementor .elementor-container {
+  width: 85%;
+  margin: 0 auto;
+}
+.elementor .elementor-container .title {
+  width: 100%;
+  color: #fff;
+}
+.elementor .elementor-container .title h2 {
+  font-size: 1.4em;
+  z-index: 999;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+.elementor .elementor-container .title::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  margin: 0;
+  color: #dedede;
+  background-image: linear-gradient(-45deg, transparent, transparent 30%, #444444 30%, #444444 50%, transparent 50%, transparent 80%, #444444 80%);
+  background-size: 5px 5px;
+  background-color: transparent !important;
+  border: none !important;
+}
+.elementor .elementor-container .elementor-blogs {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 250px 250px;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog:nth-child(1) {
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog:nth-child(1) .image {
+  height: 100%;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog:nth-child(1) .elementor-blog-info {
+  height: 25%;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog:nth-child(1) .elementor-blog-info .elementor-blog-title h2 {
+  font-size: 1.5em;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .image img {
+  transition: 0.5s ease;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog:hover .image img {
+  transform: scale(1.2);
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info {
+  height: 40%;
+  width: 100%;
+  bottom: 0;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.1882352941) 0%, #000000 100%);
+  padding: 0 2.5%;
+  color: #fff;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info a {
+  color: #fff;
+  transition: 0.5s ease;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info a h2 {
+  font-size: 1.2em;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info .made {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info .made p:nth-child(1)::after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  border: 2px solid;
+  border-radius: 2px;
+  display: inline-block;
+  color: #888;
+}
+.elementor .elementor-container .elementor-blogs .elementor-blog .elementor-blog-info .made p {
+  font-size: 0.8em;
+  margin: 0;
+}
+
+.blogs-container .content .latest-style-blog .show-blogs .main-blogs .blog {
+  width: 100%;
+}
+.blogs-container .content .latest-style-blog .show-blogs .main-blogs .blog .image {
+  width: calc(50% - 0.5em);
+}
+.blogs-container .content .latest-style-blog .show-blogs .main-blogs .blog .latest-info {
+  width: calc(50% - 0.5em);
+  line-height: 1.9;
+}
+.blogs-container .content .latest-style-blog .show-blogs .main-blogs .blog::after {
+  display: none;
+}
+
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog {
+  width: calc((100% - 1em) / 3);
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .image {
+  width: 100%;
+  overflow: hidden;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .image img {
+  transition: 0.6s ease;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .play {
+  color: #fff;
+  left: 5%;
+  top: 5%;
+  width: 3em;
+  height: 2.8em;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  border: 1px solid #fff;
+  transition: 0.6s ease;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .play svg {
+  font-size: 1.5em;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .videos-info {
+  left: 0;
+  bottom: 0;
+  padding: 1em;
+  background-color: transparent;
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4392156863) 52%);
+  transition: 0.5s ease;
+  width: 100%;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .videos-info .title a {
+  color: #fff;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .videos-info .made {
+  color: #fff;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .videos-info .made::after {
+  display: none;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog .videos-info .made a {
+  color: #fff;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog:hover .videos-info {
+  background-image: linear-gradient(180deg, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5019607843) 52%);
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog:hover .image img {
+  transform: scale(1.1);
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog:hover .play {
+  transform: scale(0);
+  opacity: 0;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog::after {
+  display: none;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog:nth-child(1) {
+  width: 100%;
+}
+.blogs-container .content .latest-video .show-blogs .main-blogs .blog:nth-child(1) .title h2 {
+  font-size: 1.5em;
+  margin: 0;
+  font-weight: 700;
+}
+
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog {
+  width: calc((100% - 2em) / 2);
+  border: 1px solid #dedede;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .title {
+  padding: 0 1em;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .made {
+  padding: 0 1em;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .made::after {
+  display: none;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .view {
+  padding: 0 1em;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog .view a {
+  padding: 10px 15px;
+  line-height: 1;
+  color: #fff;
+  background-color: #555;
+  font-weight: 600;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 0.3px;
+  cursor: pointer;
+}
+.blogs-container .content .posts .show-blogs-container .show-blogs .main-blogs .blog::after {
+  display: none;
+}
+
+footer {
+  background-color: #191919;
+}
+footer .top-footer {
+  width: 90%;
+  margin: 0 auto;
+}
+footer .top-footer .footer-column {
+  width: calc((100% - 3rem) / 3);
+  color: #fff;
+}
+footer .top-footer .footer-column .title h2 {
+  font-size: 1.2em;
+}
+footer .top-footer .footer-column .title::after {
+  content: "";
+  width: 100%;
+  height: 0.18em;
+  background-color: #313131;
+  bottom: -10%;
+  position: absolute;
+}
+footer .top-footer .footer-column .pick .image {
+  width: calc(35% - 0.25em);
+}
+footer .top-footer .footer-column .pick .info {
+  width: calc(65% - 0.25em);
+}
+footer .top-footer .footer-column .pick .info a {
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+footer .top-footer .footer-column .pick .info a h2 {
+  font-size: 1em;
+}
+footer .top-footer .footer-column .pick:not(:last-child)::after {
+  content: "";
+  width: 100%;
+  height: 0.1em;
+  background-color: #313131;
+  bottom: -20%;
+  position: absolute;
+}
+footer .top-footer .footer-column .categories ul li a {
+  color: #fff;
+}
+footer .bottom-footer {
+  background-color: #111111;
+}
+footer .bottom-footer .bottom-container {
+  width: 90%;
+  margin: 0 auto;
+}
+footer .bottom-footer .bottom-container .social-media .link .icon {
+  width: 2.2em;
+  height: 2.2em;
+  color: #fff;
+  font-size: 1.2em;
+}
+footer .bottom-footer .bottom-container .social-media .link a {
+  color: #999;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+footer .bottom-footer .bottom-container .social-media .facebook .icon {
+  background-color: #0d47a1;
+}
+footer .bottom-footer .bottom-container .social-media .twitter .icon {
+  background-color: #40c4ff;
+}
+footer .bottom-footer .bottom-container .social-media .instagram .icon {
+  background: radial-gradient(circle farthest-corner at 35% 90%, #ffa100, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #efa11c, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #8f44c7, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d43178, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%) !important;
+}
+footer .bottom-footer .bottom-container .social-media .pinterest .icon {
+  background-color: #bd081c;
+}
+footer .bottom-footer .bottom-container .social-media .youtube .icon {
+  background-color: #ff0000;
+}
+footer .bottom-footer .bottom-container .social-media .emial .icon {
+  background-color: #0084ff;
+}
+footer .bottom-footer .bottom-container .social-media::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0.1em;
+  left: 0;
+  bottom: -40%;
+  background-color: #313131;
+}
+footer .bottom-footer .bottom-container .made-by {
+  color: #999;
+}
+footer .bottom-footer .bottom-container .made-by a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s ease;
+}
+
+header .header-container .bottom .burger-icon {
+  height: -moz-fit-content;
+  height: fit-content;
+  cursor: pointer;
+  display: none;
+}
+header .header-container .bottom .burger-icon svg {
+  font-size: 1.5em;
+}
+header .header-container .bottom .nav-bar {
+  display: none;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: -100%;
+  top: 0;
+  background: rgba(0, 0, 0, 0.5647058824);
+  z-index: 9999999;
+  transition: 0.5s ease;
+}
+header .header-container .bottom .nav-bar .nav-container {
+  width: 40%;
+  height: 100%;
+  background: #fff;
+  padding: 2em 1.5em;
+}
+header .header-container .bottom .nav-bar .nav-container .logo {
+  width: 60%;
+}
+header .header-container .bottom .nav-bar .nav-container .social-media {
+  position: relative;
+}
+header .header-container .bottom .nav-bar .nav-container .social-media a {
+  color: #000;
+}
+header .header-container .bottom .nav-bar .nav-container .social-media::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 0.1em;
+  background-color: #304ffe;
+  top: -25%;
+}
+header .header-container .bottom .nav-bar .nav-container .nav-links .dropdown button {
+  line-height: unset;
+}
+header .header-container .bottom .nav-bar .nav-container .nav-links .menu {
+  height: 0;
+  overflow: hidden;
+}
+header .header-container .bottom .nav-bar .nav-container .nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 600;
+}
+header .header-container .bottom .nav-bar .nav-container .nav-links:hover .menu {
+  height: unset;
+}
+header .header-container .bottom .active {
+  left: 0;
+}/*# sourceMappingURL=main.css.map */

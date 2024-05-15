@@ -1,0 +1,123 @@
+@use "../helper/var" as *;
+
+.elementor {
+  background-color: #222;
+  padding: 4em 0;
+  .elementor-container {
+    width: 85%;
+    margin: 0 auto;
+    .title {
+      width: 100%;
+      color: $primary;
+      h2 {
+        font-size: 1.4em;
+        z-index: 999;
+        font-weight: 700;
+        letter-spacing: 0.05em;
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        margin: 0;
+        color: #dedede;
+        background-image: linear-gradient(
+          -45deg,
+          transparent,
+          transparent 30%,
+          #444444 30%,
+          #444444 50%,
+          transparent 50%,
+          transparent 80%,
+          #444444 80%
+        );
+        background-size: 5px 5px;
+        background-color: transparent !important;
+        border: none !important;
+      }
+    }
+
+    .elementor-blogs {
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 250px 250px;
+
+      .elementor-blog:nth-child(1) {
+        grid-row-start: 1;
+        grid-row-end: 3;
+
+        .image {
+          height: 100%;
+        }
+
+        .elementor-blog-info {
+          height: 25%;
+          .elementor-blog-title {
+            h2 {
+              font-size: 1.5em;
+            }
+          }
+        }
+      }
+
+      .elementor-blog {
+        .image {
+          img {
+            transition: 0.5s ease;
+          }
+        }
+
+        &:hover {
+          .image {
+            img {
+              transform: scale(1.2);
+            }
+          }
+        }
+        .elementor-blog-info {
+          height: 40%;
+          width: 100%;
+          bottom: 0;
+          background-color: transparent;
+          background-image: linear-gradient(180deg, #00000030 0%, #000000 100%);
+          padding: 0 2.5%;
+          color: $primary;
+          a {
+            color: $primary;
+            transition: 0.5s ease;
+            h2 {
+              font-size: $h2;
+            }
+
+            @extend %links-hover;
+          }
+
+          .made {
+            width: fit-content;
+            margin: 0;
+            p:nth-child(1) {
+              &::after {
+                content: "";
+                width: 4px;
+                height: 4px;
+                border: 2px solid;
+                border-radius: 2px;
+                display: inline-block;
+                color: #888;
+              }
+            }
+
+            p {
+              font-size: 0.8em;
+              margin: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+}

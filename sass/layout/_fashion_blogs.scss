@@ -1,0 +1,29 @@
+@use "../helper/var" as *;
+
+.blogs-container {
+  .content {
+    .fashion-blogs {
+      .show-blogs-container {
+        .show-blogs {
+          .main-blogs {
+            .blog {
+              width: calc((100% - 3em) / 3);
+            }
+
+            .made {
+              &::after {
+                display: none;
+              }
+            }
+
+            .blog {
+              &::after {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

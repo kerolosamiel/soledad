@@ -1,0 +1,27 @@
+@use "../helper/var" as *;
+
+.blogs-container {
+  .content {
+    .latest-style-blog {
+      .show-blogs {
+        .main-blogs {
+          .blog {
+            width: 100%;
+            .image {
+              width: calc(50% - 0.5em);
+            }
+
+            .latest-info {
+              width: calc(50% - 0.5em);
+              line-height: 1.9;
+            }
+
+            &::after {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}

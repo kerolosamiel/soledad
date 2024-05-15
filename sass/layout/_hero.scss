@@ -1,0 +1,79 @@
+@use "../helper/var" as *;
+
+.hero {
+  position: relative;
+  z-index: 0;
+  .hero-container {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+    .blog:nth-child(1) {
+      grid-column-start: 1;
+      grid-column-end: 3;
+      grid-row-start: 1;
+      grid-row-end: 3;
+    }
+
+    .blog {
+      overflow: hidden;
+      img {
+        transition: 1.3s ease;
+      }
+      &:hover {
+        img {
+          transform: scale(1.1);
+        }
+      }
+      .info {
+        left: 5%;
+        bottom: 0;
+        width: 90%;
+
+        .ctg {
+          p {
+            font-size: 0.8em;
+            font-weight: 600;
+            padding: 0 0.1em;
+            background-color: $accent;
+            color: $primary;
+          }
+        }
+
+        .title {
+          h2 {
+            font-size: $h2;
+            a {
+              background: $primary;
+              font-weight: 600;
+              color: $text;
+              text-decoration: none;
+              transition: 0.3s ease;
+
+              @extend %links-hover;
+            }
+          }
+        }
+
+        .made {
+          width: fit-content;
+          p {
+            font-weight: 600;
+            background-color: $primary;
+          }
+        }
+      }
+    }
+
+    .blog:not(:first-child) {
+      .info {
+        .title {
+          h2 {
+            font-size: $h2;
+          }
+        }
+      }
+    }
+  }
+}
