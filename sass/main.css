@@ -105,6 +105,7 @@ header .header-container .top .social-media a {
 header .header-container .bottom {
   padding-left: 5% !important;
   padding-right: 5% !important;
+  padding-top: 2%;
   background-color: #fff;
 }
 header .header-container .bottom .logo img {
@@ -990,13 +991,14 @@ header .header-container .bottom .nav-bar {
   transition: 0.5s ease;
 }
 header .header-container .bottom .nav-bar .nav-container {
-  width: 40%;
+  width: 70%;
   height: 100%;
   background: #fff;
   padding: 2em 1.5em;
 }
 header .header-container .bottom .nav-bar .nav-container .logo {
   width: 60%;
+  margin: 0 auto;
 }
 header .header-container .bottom .nav-bar .nav-container .social-media {
   position: relative;

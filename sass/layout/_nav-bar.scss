@@ -24,13 +24,14 @@ header {
         transition: 0.5s ease;
 
         .nav-container {
-          width: 40%;
+          width: 70%;
           height: 100%;
           background: $primary;
           padding: 2em 1.5em;
 
           .logo {
             width: 60%;
+            margin: 0 auto;
           }
 
           .social-media {

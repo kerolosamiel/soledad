@@ -119,7 +119,7 @@ for (i = 0; i < postCountElements.length; i++) {
 
 // Event listener for burger icon click
 burgerIcon.addEventListener("click", function () {
-  addClassToElement(navBar, "active");
+  addClassToElement(navigationBar, "active");
 });
 
 // Event listener to close navigation bar when clicking outside
@@ -127,7 +127,7 @@ window.addEventListener("click", closeOutSide);
 
 // Function to close navigation bar when clicking outside
 function closeOutSide(el) {
-  if (el.target == navBar) {
-    navBar.classList.remove("active");
+  if (el.target == navigationBar) {
+    navigationBar.classList.remove("active");
   }
 }
